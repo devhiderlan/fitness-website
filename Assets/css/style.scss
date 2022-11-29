@@ -516,7 +516,7 @@ section {
          padding: 2rem 3rem;
 
          p {
-            font-size:1.5rem;
+            font-size: 1.5rem;
             line-height: 2;
             color: $light-white;
          }
@@ -549,7 +549,6 @@ section {
                margin: 0 2rem 0 auto;
                color: $red;
             }
-
          }
       }
    }
@@ -558,7 +557,6 @@ section {
 //Blogs section
 
 .blogs {
-
    .slide {
       background: $light-bg;
       margin-bottom: 7rem;
@@ -614,6 +612,107 @@ section {
       }
    }
 }
+
+//Footer section
+
+.footer {
+
+   .box-container {
+      @include grid(25rem);
+
+      .box {
+
+         h3 {
+            font-size: 2.2rem;
+            color: $white;
+            padding: 1rem 0;
+         }
+
+         .links {
+            font-size: 1.5rem;
+            display: block;
+            color: $light-white;
+            padding: 1rem 0;
+
+            &:hover {
+               color: $red;
+            }
+         }
+
+         p {
+            font-size: 1.5rem;
+            color: $light-white;
+            padding: 1rem 0;
+
+            i {
+               padding-right: 0.5rem;
+               color: $red;
+            }
+         }
+
+         .share {
+            padding: 1rem 0;
+
+            a {
+              height: 4.5rem; 
+              width: 4.5rem; 
+              line-height: 4.5rem; 
+              font-size: 1.7rem;
+              color: $white;
+              background: $light-bg;
+              border-radius: 50%;
+              margin-right: .5rem;
+              text-align: center;
+
+              &:hover {
+               background: $red;
+              }
+            }
+         }
+
+         form {
+
+            .email {
+               margin-bottom: 1rem;
+               width: 100%;
+               background: $light-bg;
+               padding: 1.2rem;
+               font-size: 1.5rem;
+               color: $white;
+               text-transform: none;
+            }
+         }
+      }
+   }
+}
+
+.credit {
+   font-size: 1.5rem;
+   text-align: center;
+   padding: 2rem;
+   color: $white;
+   background: $light-bg;
+   line-height: 1.5;
+
+   span a {
+      color: $red;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
